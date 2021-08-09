@@ -108,6 +108,16 @@ You _do not_ need to translate the variable text inside the double curly bracket
 
 Again, just make sure the variables and brackets (`{{variable}}`) stay in the translation in the correct place.
 
+#### Using i18nexus
+
+If you would like to use translation management software to track your progress, we can invite you to our i18nexus account as a collaborator.
+
+![zaprite-i18nexus-02](https://user-images.githubusercontent.com/12265052/128774093-bbec2751-e0a6-4169-bfd9-89a156d51806.png)
+
+The screenshot above shows the i18nexus workflow. You can quickly review the auto-translated content and then click the green arrow ✅  to confirm each string.
+
+You can also filter between _'Confirmed'_ and _'Unconfirmed'_ using the dropdown menu in the upper left.
+
 ### 4. Submit the translations
 
 If you use Github, you can create a pull request with your changes included.
@@ -125,6 +135,12 @@ If everything looks good we will let you know and you can then send your invoice
 Sign up for a Zaprite account before you start translating. You will be able to browse through the app and visually see where each string is located to get better context for how the wording is used.
 
 You also need a Zaprite account in order to invoice us for your work, so it would be more beneficial to sign-up before you begin. 👍
+
+Approximate totals:
+* Strings: 700
+* Words: 3,000
+
+We estimate that translations should take approx. 2-3 hours at most. We can supply auto-translated files that you can use as a starting base to help speed up the process.
 
 # Questions?
 
