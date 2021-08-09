@@ -8,7 +8,7 @@
         "cancelled": "Canceled"
     },
     "public_status": {
-        "awaiting_payment": "Awaiting payment",
+        "awaiting-payment": "Awaiting payment",
         "overdue": "Overdue"
     },
     "buttons": {
@@ -16,7 +16,7 @@
         "edit": "Edit Invoice",
         "update": "Update Invoice",
         "delete": "Delete Invoice",
-        "send_reminder": "Send Reminder"
+        "send-reminder": "Send Reminder"
     },
     "list": {
         "page_title": "Invoices",
@@ -24,7 +24,7 @@
     },
     "reminders": {
         "title": "Reminders",
-        "not_sent": "No reminders have been sent.",
+        "not-sent": "No reminders have been sent.",
         "reminder-sent": "Reminder sent",
         "reminder-scheduled": "Reminder scheduled",
         "modal": {
@@ -42,19 +42,19 @@
         "page_title": "Edit Invoice",
         "page_text": "Changes are saved in real time, as you make them.",
         "notices": {
-            "mark_as": "Mark as",
-            "is_sent": "<0>This Invoice has already been <1>sent</1> to your Contact.</0>",
-            "is_paid": "<0>This Invoice has been <1>paid</1>.</0>",
+            "mark-as": "Mark as",
+            "is-sent": "<0>This Invoice has already been <1>sent</1> to your Contact.</0>",
+            "is-paid": "<0>This Invoice has been <1>paid</1>.</0>",
             "requirements": "<0>Each Invoice requires a <1>Contact</1>, at least one <1>Task</1> before it can be sent.</0>"
         },
         "info": {
             "title": "Your Information",
             "text": "Add your information (optional).",
-            "company_info": "Company information",
+            "company-info": "Company information",
             "desc": "<0>To edit your contact information (name, email, etc.), edit your <1>Company Profile</1> in your account settings.</0>",
-            "show_name": "Show name?",
-            "show_email": "Show email?",
-            "show_address": "Show address?"
+            "show-name": "Show name?",
+            "show-email": "Show email?",
+            "show-address": "Show address?"
         },
         "recipient": {
             "title": "Recipient",
@@ -67,18 +67,36 @@
         },
         "tasks": {
             "title": "Tasks",
-            "text": "Add Tasks as line items for this Invoice.",
-            "assigned_tasks": "Assigned Tasks",
-            "select_available": "Select from available Tasks below.",
-            "none_available": "<0>No available Tasks for this <1>Contact</1>.</0>",
-            "no_contact": "<0>First, choose one of your Contacts in the <1>Recipient</1> section above.</0>",
-            "available_tasks": "Available Tasks",
-            "manage_tasks": "Manage Tasks"
+            "text": "Add line items for this Invoice.",
+            "assigned": {
+                "title": "Assigned Tasks",
+                "text": "Select from available Tasks below.",
+                "none": "No tasks added."
+            },
+            "none-available": "<0>No available Tasks for this <1>Contact</1>.</0>",
+            "no-contact": "<0>First, choose one of your Contacts in the <1>Recipient</1> section above.</0>",
+            "manage-tasks": "Manage Tasks",
+            "add": {
+                "title": "Add Tasks",
+                "text": "Choose from available Tasks, or add new line items."
+            },
+            "available": {
+                "title": "Available Tasks",
+                "text": "Choose from available Tasks."
+            },
+            "new": {
+                "title": "Add Line Item",
+                "text": "This will create a new Task and automatically assign it to the Invoice."
+            }
         },
         "payment": {
             "title": "Payment",
             "text": "Enable payment options for this Invoice.",
-            "no_methods": "<0>No activated <1>payment methods</1>.</0>"
+            "paste-bitcoin": "Paste in your bitcoin receiving address.",
+            "paste-liquid": "Paste in your Liquid receiving address.",
+            "new-address-warning": "<0><1>Note:</1> As a privacy measure, make sure to use a newly-generated receive address for every Invoice.</0>",
+            "manage-methods": "Manage payment methods",
+            "no-methods": "<0>No activated <1>payment methods</1>.</0>"
         },
         "footer": {
             "title": "Footer",
@@ -89,13 +107,13 @@
             "title": "Preview Invoice"
         },
         "bitcoin": {
-            "bitcoin_rate": "Bitcoin rate",
-            "invoice_total": "Invoice total"
+            "bitcoin-rate": "Bitcoin rate",
+            "invoice-total": "Invoice total"
         },
         "toast": {
             "success": "The Invoice status has been updated!",
             "error": "Something went wrong. The Invoice status was not updated.",
-            "url_copied": "Invoice URL copied to clipboard."
+            "url-copied": "Invoice URL copied to clipboard."
         }
     },
     "history": {
@@ -134,7 +152,7 @@
             "download": "You can download a PDF copy of this invoice below.",
             "deleted": "<0>It looks like this Invoice <1>does not exist</1>. It may have been deleted by the sender.</0>",
             "incomplete": "<0>This Invoice is <1>incomplete</1> and cannot be paid. Please contact the sender and let them know.</0>",
-            "already_paid": "<0>This Invoice is <1>paid</1>. Thank you!</0>"
+            "already-paid": "<0>This Invoice is <1>paid</1>. Thank you!</0>"
         }
     },
     "pay": {
@@ -146,6 +164,7 @@
         "invoice": "Invoice",
         "invoice_total": "Invoice total",
         "amount_due": "Amount due",
+        "balance": "Balance",
         "bill_to": "Bill to",
         "from": "From",
         "invoice_number": "Invoice number",
