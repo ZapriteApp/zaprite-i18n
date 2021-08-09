@@ -39,6 +39,8 @@ There are three ways you can work on translations:
 1. Clone this repo, _or_
 2. Download a copy of the JSON files for your assigned language from this repo.
 
+> **IMPORTANT**: Make sure you contact us **_before_** you start working on a language.
+
 ### 3. Translate the strings
 
 Use your favourite text editor to edit the files, which are all in JSON format.
