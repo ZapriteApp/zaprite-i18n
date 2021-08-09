@@ -1,0 +1,28 @@
+{
+    "page_title": "Settings",
+    "app": {
+        "title": "App Settings",
+        "text": "<0>Adjust the default <1>appearance settings</1> for the app. These settings determine how information is displayed throughout the app (for example: balances, reports and charts), but do not effect individual invoice settings.</0>",
+        "btc_unit": "Bitcoin unit display",
+        "fiat": "Default fiat currency",
+        "theme": "Theme",
+        "language": "Language",
+        "toast": {
+            "success": "Your app settings have been successfully updated!",
+            "error": "Something went wrong. Your app settings were not updated."
+        }
+    },
+    "invoices": {
+        "title": "Invoice Settings",
+        "text": "These are the default settings that will appear when you create a new invoice. You can also add or edit this information on individual invoices when creating them.",
+        "desc": "<0>To add/edit your contact information (Company Name, Email, etc.), edit your <1>Company Profile</1> in your account.</0>",
+        "company_info": "Company information",
+        "show_name": "Show name?",
+        "show_email": "Show email?",
+        "show_address": "Show address?",
+        "toast": {
+            "success": "Your invoice settings have been successfully updated!",
+            "error": "Something went wrong. Your invoice settings were not updated."
+        }
+    }
+}

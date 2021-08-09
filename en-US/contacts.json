@@ -1,0 +1,56 @@
+{
+    "buttons": {
+        "add": "Add Contact",
+        "new": "New Contact",
+        "edit": "Edit Contact",
+        "update": "Update Contact",
+        "delete": "Delete Contact"
+    },
+    "display": {
+        "email": {
+            "copied": "Email address copied to clipboard.",
+            "failed": "Failed to copy: "
+        }
+    },
+    "list": {
+        "page_title": "Contacts",
+        "error": "There was a problem loading your Contacts."
+    },
+    "new": {
+        "page_title": "New Contact",
+        "page_text": "Create a new contact. You can add default invoice settings, or leave them empty to use your account defaults.",
+        "toast": {
+            "success": "Your new Contact was successfully added!",
+            "error": "Something went wrong. A new Contact was not created."
+        }
+    },
+    "edit": {
+        "page_title": "Edit Contact",
+        "toast": {
+            "success": "The Contact was successfully updated!",
+            "error": "Something went wrong. The Contact was not updated."
+        }
+    },
+    "view": {
+        "page_title": "View Contact",
+        "error": "There was a problem loading the information for this Contact.",
+        "no_email": "No email added",
+        "no_terms": "No terms added",
+        "no_address": "No address added",
+        "no_note": "No note added"
+    },
+    "delete": {
+        "modal": {
+            "title": "Delete Contact",
+            "text": "Are you sure you want to delete this Contact?"
+        },
+        "toast": {
+            "success": "The Contact was successfully deleted!",
+            "error": "Something went wrong. The Contact was not deleted."
+        }
+    },
+    "no_contacts": {
+        "title": "No Contacts",
+        "button": "Add a Contact"
+    }
+}

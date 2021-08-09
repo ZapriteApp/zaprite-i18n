@@ -1,0 +1,118 @@
+{
+    "page_title": "Account",
+    "labels": {
+        "account_email": "Account Email",
+        "name_on_account": "Name on Account",
+        "payee": "Payee"
+    },
+    "user": {
+        "title": "Zaprite Account",
+        "text": "Manage your Zaprite account login details.",
+        "email": {
+            "text": "Add your new email above. Once you click Update, you will be asked to confirm your password. Finally, you will need to verify your new email before being able to login again.",
+            "modal": {
+                "title": "Change Account Email",
+                "text": "<0>Please enter your <1>current password</1>:</0>",
+                "message": "<0>Your Zaprite account email will be changed to <1>{{email}}</1></0>"
+            },
+            "toast": {
+                "success": "Your account email has been changed!",
+                "incorrect": "Your password is incorrect. Please try again.",
+                "error": "Something went wrong. Your account email was not updated."
+            }
+        },
+        "password": {
+            "toast": {
+                "success": "Your password has been changed.",
+                "error": "Your password was not updated.",
+                "incorrect": "Your current password is incorrect. Please try again."
+            }
+        }
+    },
+    "company": {
+        "page_title": "Company Profile",
+        "page_text": "This is your default company information that appears on new Invoices.",
+        "toast": {
+            "success": "Your company profile has been successfully updated!",
+            "error": "Something went wrong. Your company profile was not updated."
+        }
+    },
+    "payments": {
+        "page_title": "Payments",
+        "page_subtitle": "Manage your payment methods.",
+        "page_text": "Integrate various payment methods for your Invoices.",
+        "button": "Manage Payments"
+    },
+    "payment_methods": {
+        "page_title": "Payment Methods",
+        "activated": {
+            "title": "Activated Payment Methods",
+            "text": "Your activated payment methods are shown below.",
+            "desc": "If a payment method below is activated but disabled, it won't be available on any new Invoices. If enabled globally here, you can toggle availability on individual Invoices. You can also set it as a default on new Invoices.",
+            "none": "No payment methods have been activated."
+        },
+        "edit": {
+            "make_active": "Activate this payment method?",
+            "make_default": "Enable this payment method on new Invoices?",
+            "toast": {
+                "success": "Your payment info was successfully updated!",
+                "error": "Something went wrong. The payment method was not updated."
+            }
+        },
+        "wallets": {
+            "wallet_label": "Wallet Label",
+            "wallet_xpub": "Wallet xPub",
+            "paste_xpub": "Paste your wallet xPub",
+            "xpub_message": "Required: Your xPub will be used to generate a new receiving address for each invoice payment."
+        },
+        "bitcoin": {
+            "text": "Bitcoin payments are currently supported by manually adding a receiving address to individual invoices. We will be adding xPub integration shortly in order to automate this process."
+        },
+        "liquid": {
+            "text": "Liquid Network payments are currently supported by manually adding a receiving address to individual Invoices. We will be adding xPub integration shortly in order to automate this process."
+        },
+        "interac": {
+            "text": "<0>Add your <1>Interac<2></2> e-Transfer</1> information to offer email payments on your Invoices.</0>",
+            "email": "Interac Email Address",
+            "auto-deposit": {
+                "label": "Auto Deposit?",
+                "text": "Do you have auto-deposit setup for this email?"
+            },
+            "question": {
+                "label": "Security Question",
+                "placeholder": "Add a security question ..."
+            },
+            "answer": "Answer",
+            "desc": "Required: These details will be shown to the recipient when they are paying the Invoice."
+        },
+        "sepa": {
+            "text": "<0>Add your IBAN account information for Euro <1></1> payments.</0>",
+            "iban": "IBAN",
+            "swift": "SWIFT / BIC",
+            "desc": "Required: These details will be shown to the recipient when they are paying the Invoice."
+        },
+        "available": {
+            "subtitle": "Available payment methods",
+            "text": "Add additional payment methods to your account.",
+            "toast": {
+                "success": "New payment method added!",
+                "error": "Something went wrong. The payment method was not added."
+            }
+        }
+    },
+    "billing": {
+        "page_title": "Billing",
+        "page_text": "This is your current Zaprite subscription information.",
+        "manage": {
+            "text": "Manage your Zaprite subscription billing."
+        }
+    },
+    "verified": {
+        "page_title": "Account Verified",
+        "page_subtitle": "Thank you!",
+        "page_text": "Your email address has been verified and you can now start using your Zaprite account.",
+        "toast": {
+            "success": "Your email has been verified!"
+        }
+    }
+}

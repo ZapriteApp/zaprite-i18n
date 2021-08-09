@@ -1,0 +1,65 @@
+{
+    "status": {
+        "open": "Open",
+        "complete": "Complete",
+        "overdue": "Overdue",
+        "invoiced": "Invoiced",
+        "cancelled": "Canceled"
+    },
+    "buttons": {
+        "add": "Add Project",
+        "new": "New Project",
+        "edit": "Edit Project",
+        "update": "Update Project",
+        "delete": "Delete Project"
+    },
+    "list": {
+        "page_title": "Projects",
+        "error": "There was a problem loading your Projects.",
+        "toast": {
+            "success": "The Project was successfully duplicated!",
+            "error": "Something went wrong. The project was not duplicated."
+        }
+    },
+    "new": {
+        "page_title": "New Project",
+        "toast": {
+            "success": "Your new Project was successfully created!",
+            "error": "Something went wrong. A project was not created."
+        }
+    },
+    "edit": {
+        "page_title": "Edit Project",
+        "toast": {
+            "success": "The Project was successfully updated!",
+            "error": "Something went wrong. The project was not updated."
+        }
+    },
+    "view": {
+        "page_title": "View Project",
+        "error": "There was a problem loading the Tasks for this Project.",
+        "no_contact": "No contact added",
+        "no_description": "No description added",
+        "no_deadline": "No deadline",
+        "due_in": "Due in"
+    },
+    "delete": {
+        "title": "Delete Project",
+        "modal": {
+            "text": "Are you sure you want to delete this Project?"
+        },
+        "toast": {
+            "success": "The Project was successfully deleted!",
+            "error": "Something went wrong. The project was not deleted."
+        }
+    },
+    "tasks": {
+        "title": "Project Tasks",
+        "manage": "Manage Tasks",
+        "no_tasks": "There are no Tasks assigned to this Project yet."
+    },
+    "no_projects": {
+        "title": "No Projects",
+        "button": "Create a Project"
+    }
+}

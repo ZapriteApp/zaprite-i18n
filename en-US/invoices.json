@@ -1,0 +1,164 @@
+{
+    "status": {
+        "draft": "Draft",
+        "sent": "Sent",
+        "paid": "Paid",
+        "unpaid": "Unpaid",
+        "partial": "Partial",
+        "cancelled": "Canceled"
+    },
+    "public_status": {
+        "awaiting_payment": "Awaiting payment",
+        "overdue": "Overdue"
+    },
+    "buttons": {
+        "new": "New Invoice",
+        "edit": "Edit Invoice",
+        "update": "Update Invoice",
+        "delete": "Delete Invoice",
+        "send_reminder": "Send Reminder"
+    },
+    "list": {
+        "page_title": "Invoices",
+        "error": "There was a problem loading your Invoices."
+    },
+    "reminders": {
+        "title": "Reminders",
+        "not_sent": "No reminders have been sent.",
+        "reminder-sent": "Reminder sent",
+        "reminder-scheduled": "Reminder scheduled",
+        "modal": {
+            "title": "Send Reminder",
+            "subtitle": "Send a reminder?",
+            "text": "<0>Are you sure you want to send this <1>reminder</1> now?</0>",
+            "message": "<0>{{contactName}} will receive a reminder email immediately at: <1>{{contactEmail}}</1></0>",
+            "toast": {
+                "success": "The reminder email was successfully sent!",
+                "error": "Something went wrong. The email was not sent."
+            }
+        }
+    },
+    "edit": {
+        "page_title": "Edit Invoice",
+        "page_text": "Changes are saved in real time, as you make them.",
+        "notices": {
+            "mark_as": "Mark as",
+            "is_sent": "<0>This Invoice has already been <1>sent</1> to your Contact.</0>",
+            "is_paid": "<0>This Invoice has been <1>paid</1>.</0>",
+            "requirements": "<0>Each Invoice requires a <1>Contact</1>, at least one <1>Task</1> before it can be sent.</0>"
+        },
+        "info": {
+            "title": "Your Information",
+            "text": "Add your information (optional).",
+            "company_info": "Company information",
+            "desc": "<0>To edit your contact information (name, email, etc.), edit your <1>Company Profile</1> in your account settings.</0>",
+            "show_name": "Show name?",
+            "show_email": "Show email?",
+            "show_address": "Show address?"
+        },
+        "recipient": {
+            "title": "Recipient",
+            "text": "Choose from your contact list."
+        },
+        "details": {
+            "title": "Details",
+            "text": "Choose the invoice currency, date, terms and tax rate. Add an optional reference.",
+            "reference": "Order No./Reference"
+        },
+        "tasks": {
+            "title": "Tasks",
+            "text": "Add Tasks as line items for this Invoice.",
+            "assigned_tasks": "Assigned Tasks",
+            "select_available": "Select from available Tasks below.",
+            "none_available": "<0>No available Tasks for this <1>Contact</1>.</0>",
+            "no_contact": "<0>First, choose one of your Contacts in the <1>Recipient</1> section above.</0>",
+            "available_tasks": "Available Tasks",
+            "manage_tasks": "Manage Tasks"
+        },
+        "payment": {
+            "title": "Payment",
+            "text": "Enable payment options for this Invoice.",
+            "no_methods": "<0>No activated <1>payment methods</1>.</0>"
+        },
+        "footer": {
+            "title": "Footer",
+            "text": "Add an optional note.",
+            "default": "Thank you for your business."
+        },
+        "preview": {
+            "title": "Preview Invoice"
+        },
+        "bitcoin": {
+            "bitcoin_rate": "Bitcoin rate",
+            "invoice_total": "Invoice total"
+        },
+        "toast": {
+            "success": "The Invoice status has been updated!",
+            "error": "Something went wrong. The Invoice status was not updated.",
+            "url_copied": "Invoice URL copied to clipboard."
+        }
+    },
+    "history": {
+        "title": "Payment History",
+        "no-activity": "No payment activity."
+    },
+    "send": {
+        "title": "Send Invoice",
+        "subtitle": "Ready to send?",
+        "text": "Are you sure you want to send this Invoice now?",
+        "message": "{{contactName}} will be notified immediately at: {{contactEmail}}",
+        "toast": {
+            "success": "The invoice was successfully sent!",
+            "error": "Something went wrong. The invoice was not sent.",
+            "error-watching": "The payment addresses were not added to the watchlist."
+        }
+    },
+    "delete": {
+        "title": "Delete Invoice",
+        "modal": {
+            "text": "Are you sure you want to delete this Invoice?"
+        },
+        "toast": {
+            "success": "The Invoice was successfully deleted!",
+            "error": "Something went wrong. The Invoice was not deleted."
+        }
+    },
+    "no_invoices": {
+        "title": "No Invoices"
+    },
+    "view": {
+        "page_title": "Payment Request",
+        "error": "There was a problem loading the information for this Task.",
+        "messages": {
+            "payable": "To pay this invoice, click the Pay Invoice button below and follow the prompts.",
+            "download": "You can download a PDF copy of this invoice below.",
+            "deleted": "<0>It looks like this Invoice <1>does not exist</1>. It may have been deleted by the sender.</0>",
+            "incomplete": "<0>This Invoice is <1>incomplete</1> and cannot be paid. Please contact the sender and let them know.</0>",
+            "already_paid": "<0>This Invoice is <1>paid</1>. Thank you!</0>"
+        }
+    },
+    "pay": {
+        "title": "Pay Invoice",
+        "text": "Choose your preferred payment method."
+    },
+    "pdf": {
+        "title": "Invoice PDF",
+        "invoice": "Invoice",
+        "invoice_total": "Invoice total",
+        "amount_due": "Amount due",
+        "bill_to": "Bill to",
+        "from": "From",
+        "invoice_number": "Invoice number",
+        "invoice_date": "Invoice date",
+        "payment_due": "Payment due",
+        "item": "Item",
+        "quantity": "Quantity",
+        "rate": "Rate",
+        "cost": "Cost",
+        "subtotal": "Subtotal",
+        "tax": "Tax",
+        "total": "Total",
+        "thank_you": "Thank you for your payment!",
+        "generated": "PDF generated on"
+    }
+}

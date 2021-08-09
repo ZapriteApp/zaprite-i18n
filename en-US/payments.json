@@ -1,0 +1,79 @@
+{
+    "toasts": {
+        "recorded": "Thank you! Your payment has been recorded.",
+        "pending": "A pending transaction has been detected!",
+        "confirmed": "Your transaction has been confirmed!",
+        "success": "Thank you for your payment! The Payee has been notified!",
+        "error": "There was a problem notifying the Payee. Please email them directly.",
+        "new-rate": "A new rate was calculated.",
+        "rate-expired": "Your rate has expired. Click Refresh to start another payment."
+    },
+    "headings": {
+        "pay-with": "Pay with"
+    },
+    "labels": {
+        "amount": "Pay this amount",
+        "total-due": "Total Due",
+        "address": "To this address",
+        "time-remaining": "Time remaining",
+        "rate-expired": "Rate expired!",
+        "tooltip": "Click Refresh to start another payment."
+    },
+    "actions": {
+        "confirm-payment": "Confirm payment?",
+        "cancel-payment": "Cancel payment?"
+    },
+    "bitcoin": {
+        "btc-paid": "BTC paid"
+    },
+    "liquid": {
+        "lbtc-paid": "L-BTC paid"
+    },
+    "interac": {
+        "text": "<0>If you are setting up a <1>new recipient</1> in your online banking, please use the details below.</0>",
+        "recipient-email": "Recipient email",
+        "auto-deposit": "<0>This account has <1>auto-deposit</1> enabled. There is no security question required.</0>",
+        "security-question": "Security question",
+        "security-answer": "Security answer"
+    },
+    "sepa": {
+        "text": "<0>If you are setting up a <1>new recipient</1> in your online banking, please use the details below.</0>",
+        "payee-name": "Payee name",
+        "iban": "IBAN",
+        "swift-bic": "Swift/BIC",
+        "cad-paid": "CAD paid"
+    },
+    "summary": {
+        "invoice-amount": "Invoice amount",
+        "btc-rate": "BTC rate",
+        "confirmation": "confirmation",
+        "confirmation_zero": "0 confirmations",
+        "confirmation_one": "{{count}} confirmation",
+        "confirmation_two": "{{count}} confirmations",
+        "confirmation_other": "{{count}} confirmations"
+    },
+    "recorded": {
+        "title": "Payment Recorded",
+        "subtitle": "Your {{method}} payment has been recorded.",
+        "text": "We will email you a receipt once the payment has been confirmed."
+    },
+    "pending": {
+        "title": "Payment Detected",
+        "subtitle": "Your {{method}} payment has been found in our mempool.",
+        "text": "We will email you a receipt once the transaction has been confirmed."
+    },
+    "confirmed": {
+        "title": "Payment Confirmed",
+        "subtitle": "Thank you! Your {{method}} payment has been confirmed.",
+        "text": "The Payee has been notified and we have emailed you a receipt. No further action is required."
+    },
+    "footer": {
+        "close-tab": "You may close this tab at any time.",
+        "we-support": "We support"
+    },
+    "temp": {
+        "title": "Notify the Payee?",
+        "text": "If you would like to notify the payee that you have made a payment, please click the 'Payment Made' button to send an automated email notification.",
+        "button": "Payment Made"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "status": {
+        "open": "Open",
+        "complete": "Complete",
+        "cancelled": "Canceled",
+        "assigned": "Assigned",
+        "invoiced": "Invoiced"
+    },
+    "buttons": {
+        "add": "Add Task",
+        "new": "New Task",
+        "edit": "Edit Task",
+        "update": "Update Task",
+        "delete": "Delete Task"
+    },
+    "list": {
+        "page_title": "Tasks",
+        "error": "There was a problem loading your Tasks.",
+        "toast": {
+            "success": "The task was successfully duplicated!",
+            "error": "Something went wrong. The task was not duplicated."
+        }
+    },
+    "new": {
+        "page_title": "New Task",
+        "toast": {
+            "success": "Your new task was successfully created!",
+            "error": "Something went wrong. A task was not created."
+        }
+    },
+    "edit": {
+        "page_title": "Edit Task",
+        "toast": {
+            "success": "The task was successfully updated!",
+            "error": "Something went wrong. The task was not updated."
+        },
+        "messages": {
+            "assigned": "<0>This Task has been <1>assigned</1> to an Invoice. Some edits are disabled. If you would like to change the Contact or Status, you must first remove the Task from the <2>Invoice</2>.</0>",
+            "invoiced": "<0>This Task has been <1>invoiced</1> and cannot be edited or deleted.</0>"
+        }
+    },
+    "view": {
+        "page_title": "View Task",
+        "error": "There was a problem loading the information for this Task.",
+        "no_contact": "No contact added",
+        "no_description": "No description added",
+        "no_project": "No project added",
+        "invoice_deleted": "Invoice deleted",
+        "not_invoiced": "Not invoiced"
+    },
+    "delete": {
+        "title": "Delete Task",
+        "modal": {
+            "text": "Are you sure you want to delete this Task?"
+        },
+        "toast": {
+            "success": "The task was successfully deleted!",
+            "error": "Something went wrong. The task was not deleted."
+        }
+    },
+    "no_tasks": {
+        "title": "No Tasks",
+        "button": "Add a Task"
+    }
+}
