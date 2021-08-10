@@ -1,184 +1,175 @@
 {
-    "plans": {
-        "trial": "Free Trial",
-        "free": "Free Plan",
-        "basic": "Basic Plan",
-        "pro": "Pro Plan"
+  "plans": {
+    "trial": "Free Trial",
+    "free": "Free Plan",
+    "basic": "Basic Plan",
+    "pro": "Pro Plan"
+  },
+  "labels": {
+    "activated": "Activated",
+    "active": "Active",
+    "active_since": "Active since",
+    "billing": "Billing",
+    "billing-starts": "Billing starts",
+    "cancels": "Cancels",
+    "cancelled": "Cancelled",
+    "cost": "Cost",
+    "coupon-applied": "Coupon applied",
+    "expired": "Expired",
+    "expires": "Expires",
+    "inactive": "Inactive",
+    "method": "Billing method",
+    "next-charge": "Next charge",
+    "paid-until": "Paid until",
+    "period": "Renewal period",
+    "plan": "Plan",
+    "plan-activated": "Plan activated",
+    "plan-cancelled": "Plan cancelled",
+    "remaining": "Remaining",
+    "renews": "Renews",
+    "subscription": "Subscription",
+    "trial-started": "Trial started"
+  },
+  "placeholders": {
+    "no-card-saved": "No card saved"
+  },
+  "current": {
+    "text": "Your current Zaprite subscription information ..."
+  },
+  "invoices": {
+    "title": "Recent Invoices",
+    "text": "Your most recent Zaprite subscription invoices ...",
+    "none": "You don't have any generated Invoices yet. Once you sign-up for a paid subscription you'll see your monthly or annual Invoices listed here.",
+    "status": {
+      "due": "Due",
+      "paid": "Paid"
     },
-    "labels": {
-        "activated": "Activated",
-        "active": "Active",
-        "active_since": "Active since",
-        "billing": "Billing",
-        "billing_starts": "Billing starts",
-        "cancels": "Cancels",
-        "cancelled": "Cancelled",
-        "cost": "Cost",
-        "coupon_applied": "Coupon applied",
-        "expired": "Expired",
-        "expires": "Expires",
-        "inactive": "Inactive",
-        "method": "Billing method",
-        "next_charge": "Next charge",
-        "paid_until": "Paid until",
-        "period": "Renewal period",
-        "plan": "Plan",
-        "plan_activated": "Plan activated",
-        "plan_cancelled": "Plan cancelled",
-        "remaining": "Remaining",
-        "renews": "Renews",
-        "subscription": "Subscription",
-        "trial_started": "Trial started"
+    "button": "All Invoices"
+  },
+  "payments": {
+    "card": {
+      "name": "Name on card",
+      "zip": "Zip/Postal Code",
+      "number": "Card number",
+      "expiry": "Expiry",
+      "cvc": "CVC"
     },
-    "placeholders": {
-        "no_card": "No card saved"
+    "coupon": {
+      "label": "I have a coupon",
+      "placeholder": "Coupon code",
+      "toast": {
+        "success": "The coupon has been successfully added.",
+        "error": "Something went wrong. We could not retrieve the coupon.",
+        "expired": "This coupon has expired.",
+        "invalid": "The coupon is not valid.",
+        "redeemed": "This coupon has already been redeemed.",
+        "removed": "The coupon has been removed."
+      }
     },
-    "current": {
-        "text": "Your current Zaprite subscription information ..."
-    },
-    "invoices": {
-        "title": "Recent Invoices",
-        "text": "Your most recent Zaprite subscription invoices ...",
-        "none": "You don't have any generated Invoices yet. Once you sign-up for a paid subscription you'll see your monthly or annual Invoices listed here.",
-        "status": {
-            "due": "Due",
-            "paid": "Paid"
-        },
-        "button": "All Invoices"
-    },
-    "payments": {
-        "card": {
-            "name": "Name on card",
-            "zip": "Zip/Postal Code",
-            "number": "Card number",
-            "expiry": "Expiry",
-            "cvc": "CVC"
-        },
-        "coupon": {
-            "label": "I have a coupon",
-            "placeholder": "Coupon code",
-            "toast": {
-                "success": "The coupon has been successfully added.",
-                "error": "Something went wrong. We could not retrieve the coupon.",
-                "expired": "This coupon has expired.",
-                "invalid": "The coupon is not valid.",
-                "redeemed": "This coupon has already been redeemed.",
-                "removed": "The coupon has been removed."
-            }
-        },
-        "due_now": "Due now: ",
-        "due_today": "Due today: ",
-        "charged_on": "Charged on: ",
-        "charge_date": "Your card will not be charged until your current free trial ends in ",
-        "agreement": "I agree to the card above being charged by Zaprite Inc. until I cancel the subscription.",
-        "error": {
-            "text": "Sorry about this, but it appears your account setup is incomplete. You will be unable to upgrade at this time.",
-            "contact_support": "<0>Please email <1>support@zaprite.com</1> with the following code:</0>"
-        }
-    },
-    "upgrade": {
-        "title": "Account Upgrade",
-        "text": "<0>Upgrade to a <1>paid plan</1> and unlock unlimited Invoices and more!</0>",
-        "benefits": {
-            "0": "<0><1>Super earlybird pricing</1><2></2></0>",
-            "1": "Unlimited invoicing",
-            "2": "Access to all new features as they are added",
-            "3": "Affordable monthly or annual billing",
-            "4": "Cancel anytime"
-        },
-        "pricing": {
-            "options": {
-                "title": "Choose your subscription.",
-                "note": "All prices are USD"
-            },
-            "message": "We use Stripe to manage credit card subscriptions, and do not store any billing information at Zaprite."
-        },
-        "offers": {
-            "free_year": "<0><1>LIMITED OFFER</1> ... use coupon code <2>ZAPRITE1YRFREE</2> below to get unlimited access for 1 year. <3>No credit card needed.</3></0>"
-        },
-        "toast": {
-            "success": "Your subscription has been activated.",
-            "error": "Something went wrong. Your upgrade was not cancelled.",
-            "card_declined": "Your card was declined."
-        }
-    },
-    "renew": {
-        "title": "Account Renewal",
-        "text": "Renew your subscription to enjoy unlimited access to Zaprite!"
-    },
-    "reactivate": {
-        "title": "Reactivate your subscription",
-        "subtitle": "Simple, one-click reactivation!",
-        "text": "Your previous subscription is set to cancel at the end of your current cycle. Before it cancels, you can easily renew it with just a single click to continue enjoying unlimited access to Zaprite!",
-        "toast": {
-            "success": "Your subscription was successfully restarted.",
-            "error": "Something went wrong. Your subscription was not restarted."
-        }
-    },
-    "cancel": {
-        "title": "Cancel Renewal",
-        "text": "Looking to cancel your subscription to Zaprite? Please read the message below, then click the Cancel Renewal button when you are ready to proceed.",
-        "card": {
-            "text": "Please note the following restrictions which will be activated at the end of your current billing cycle ...",
-            "message": "<0><1>Note:</1> Your subscription will be cancelled at the end of your current billing cycle.</0>",
-            "bullets": {
-                "payments": "<0>Existing Invoices can still be paid by your clients.</0>",
-                "invoices": "<0>You cannot create or edit <1>Invoices</1>.</0>",
-                "tasks": "<0>You cannot create or edit <1>Tasks</1>.</0>",
-                "projects": "<0>You cannot create or edit <1>Projects</1>.</0>",
-                "contacts": "<0>You cannot create or edit <1>Contacts</1>.</0>"
-            }
-        },
-        "modal": {
-            "text": "Are you sure you want to cancel your subscription?"
-        },
-        "toast": {
-            "success": "Your subscription has been successfully cancelled.",
-            "error": "Something went wrong. Your subscription was not cancelled."
-        }
-    },
-    "cancel_upgrade": {
-        "title": "Cancel Activation",
-        "subtitle": "Changed your mind?",
-        "text": "<0>Please read the message below, then click the <1>Cancel Activation</1> button when you are ready to proceed.</0>",
-        "card": {
-            "text": "Please note the following restrictions which will be activated at the end of your current trial period ...",
-            "message": "Your paid subscription will not be activated, and you will not be charged.",
-            "trial_ends_in": "Your original 14-day trial period ends in ",
-            "downgrade_notice": "<0><1>Note:</1> You will be downgraded to a free account with <1>limited functionality</1>.</0>"
-        },
-        "modal": {
-            "text": "Are you sure you want to cancel your pending activation?"
-        },
-        "toast": {
-            "success": "Your subscription upgrade has been cancelled.",
-            "error": "Something went wrong. Your upgrade was not cancelled."
-        }
-    },
-    "history": {
-        "page_title": "Billing History",
-        "page_text": "View your recent Zaprite billing history and download PDFs.",
-        "no_invoices": {
-            "title": "No Invoices",
-            "text": "You don't have any generated Invoices yet. Once you sign-up for a paid subscription you'll see your monthly or annual Invoices listed here."
-        },
-        "table": {
-            "th": {
-                "date": "Date",
-                "number": "Number",
-                "amount": "Amount",
-                "status": "Status",
-                "actions": "Actions"
-            }
-        },
-        "invoice": {
-            "status": {
-                "due": "Due",
-                "paid": "Paid"
-            }
-        },
-        "data": {
-            "error_loading": "There was a problem loading your billing history."
-        }
+    "due-now": "Due now: ",
+    "due-today": "Due today: ",
+    "charged-on": "Charged on: ",
+    "charge-date": "Your card will not be charged until your current free trial ends in ",
+    "agreement": "I agree to the card above being charged by Zaprite Inc. until I cancel the subscription.",
+    "error": {
+      "text": "Sorry about this, but it appears your account setup is incomplete. You will be unable to upgrade at this time.",
+      "contact-support": "<0>Please email <1>support@zaprite.com</1> with the following code:</0>"
     }
+  },
+  "upgrade": {
+    "title": "Account Upgrade",
+    "text": "<0>Upgrade to a <1>paid plan</1> and unlock unlimited Invoices and more!</0>",
+    "benefits": {
+      "0": "<0><1>Super earlybird pricing</1><2></2></0>",
+      "1": "Unlimited invoicing",
+      "2": "Access to all new features as they are added",
+      "3": "Affordable monthly or annual billing",
+      "4": "Cancel anytime"
+    },
+    "pricing": {
+      "options": {
+        "title": "Choose your subscription.",
+        "note": "All prices are USD"
+      },
+      "message": "We use Stripe to manage credit card subscriptions, and do not store any billing information at Zaprite."
+    },
+    "offers": {
+      "free-year": "<0><1>LIMITED OFFER</1> ... use coupon code <2>ZAPRITE1YRFREE</2> below to get unlimited access for 1 year. <3>No credit card needed.</3></0>"
+    },
+    "toast": {
+      "success": "Your subscription has been activated.",
+      "error": "Something went wrong. Your upgrade was not cancelled.",
+      "card-declined": "Your card was declined."
+    }
+  },
+  "renew": {
+    "title": "Account Renewal",
+    "text": "Renew your subscription to enjoy unlimited access to Zaprite!"
+  },
+  "reactivate": {
+    "title": "Reactivate your subscription",
+    "subtitle": "Simple, one-click reactivation!",
+    "text": "Your previous subscription is set to cancel at the end of your current cycle. Before it cancels, you can easily renew it with just a single click to continue enjoying unlimited access to Zaprite!",
+    "toast": {
+      "success": "Your subscription was successfully restarted.",
+      "error": "Something went wrong. Your subscription was not restarted."
+    }
+  },
+  "cancel": {
+    "title": "Cancel Renewal",
+    "text": "Looking to cancel your subscription to Zaprite? Please read the message below, then click the Cancel Renewal button when you are ready to proceed.",
+    "card": {
+      "text": "Please note the following restrictions which will be activated at the end of your current billing cycle ...",
+      "message": "<0><1>Note:</1> Your subscription will be cancelled at the end of your current billing cycle.</0>",
+      "bullets": {
+        "payments": "<0>Existing Invoices can still be paid by your clients.</0>",
+        "invoices": "<0>You cannot create or edit <1>Invoices</1>.</0>",
+        "tasks": "<0>You cannot create or edit <1>Tasks</1>.</0>",
+        "projects": "<0>You cannot create or edit <1>Projects</1>.</0>",
+        "contacts": "<0>You cannot create or edit <1>Contacts</1>.</0>"
+      }
+    },
+    "modal": {
+      "text": "Are you sure you want to cancel your subscription?"
+    },
+    "toast": {
+      "success": "Your subscription has been successfully cancelled.",
+      "error": "Something went wrong. Your subscription was not cancelled."
+    }
+  },
+  "cancel_upgrade": {
+    "title": "Cancel Activation",
+    "subtitle": "Changed your mind?",
+    "text": "<0>Please read the message below, then click the <1>Cancel Activation</1> button when you are ready to proceed.</0>",
+    "card": {
+      "text": "Please note the following restrictions which will be activated at the end of your current trial period ...",
+      "message": "Your paid subscription will not be activated, and you will not be charged.",
+      "trial-ends-in": "Your original 14-day trial period ends in ",
+      "downgrade-notice": "<0><1>Note:</1> You will be downgraded to a free account with <1>limited functionality</1>.</0>"
+    },
+    "modal": {
+      "text": "Are you sure you want to cancel your pending activation?"
+    },
+    "toast": {
+      "success": "Your subscription upgrade has been cancelled.",
+      "error": "Something went wrong. Your upgrade was not cancelled."
+    }
+  },
+  "history": {
+    "page_title": "Billing History",
+    "page_text": "View your recent Zaprite billing history and download PDFs.",
+    "no_invoices": {
+      "title": "No Invoices",
+      "text": "You don't have any generated Invoices yet. Once you sign-up for a paid subscription you'll see your monthly or annual Invoices listed here."
+    },
+    "table": {
+      "th": {
+        "date": "Date",
+        "number": "Number",
+        "amount": "Amount",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    }
+  }
 }
