@@ -8,7 +8,7 @@
   "labels": {
     "activated": "Activated",
     "active": "Active",
-    "active_since": "Active since",
+    "active-since": "Active since",
     "billing": "Billing",
     "billing-starts": "Billing starts",
     "cancels": "Cancels",
@@ -94,7 +94,7 @@
       "message": "We use Stripe to manage credit card subscriptions, and do not store any billing information at Zaprite."
     },
     "offers": {
-      "free-year": "<0><1>LIMITED OFFER</1> ... use coupon code <2>ZAPRITE1YRFREE</2> below to get unlimited access for 1 year. <3>No credit card needed.</3></0>"
+      "free-year": "<0><1>LIMITED OFFER</1> ... use coupon code <2>{{coupon}}</2> below to get unlimited access for 1 year. <3>No credit card needed.</3></0>"
     },
     "toast": {
       "success": "Your subscription has been activated.",
@@ -137,7 +137,7 @@
       "error": "Something went wrong. Your subscription was not cancelled."
     }
   },
-  "cancel_upgrade": {
+  "cancel-upgrade": {
     "title": "Cancel Activation",
     "subtitle": "Changed your mind?",
     "text": "<0>Please read the message below, then click the <1>Cancel Activation</1> button when you are ready to proceed.</0>",

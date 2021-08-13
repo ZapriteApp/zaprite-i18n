@@ -1,65 +1,65 @@
 {
-    "page_title": "Dashboard",
-    "notices": [
-        {
-            "text": "<0><1>LIMITED PROMO</1> ... use coupon code <2>ZAPRITE1YRFREE</2> to get unlimited access for 1 year. <3><4>Free Upgrade</4></3></0>"
-        }
-    ],
-    "summary": {
-        "title": "Welcome back",
-        "no_info": {
-            "title": "No summary info",
-            "text": "We are having trouble loading your current account summary information. Refresh to try again."
-        }
-    },
-    "invoices": {
-        "title": "Recent Invoices",
-        "button": "Invoices",
-        "no_invoices": {
-            "title": "No open Invoices",
-            "text": "Add a new Invoice below ..."
-        },
-        "error": "There was a problem loading your Invoices."
-    },
-    "tasks": {
-        "title": "Recent Tasks",
-        "button": "Tasks",
-        "no_tasks": {
-            "title": "You're all caught up!",
-            "text": "Add a new Task below ...",
-            "button": "Add Task"
-        },
-        "error": "There was a problem loading your Tasks."
-    },
-    "projects": {
-        "title": "Recent Projects",
-        "button": "Projects",
-        "no_projects": {
-            "title": "You're all caught up!",
-            "text": "Create a new Project below ...",
-            "button": "Create Project"
-        },
-        "error": "There was a problem loading your Projects."
-    },
-    "market": {
-        "title": "Market",
-        "price": "Price",
-        "per_sat": "<0>{{currency}} per sat <1>(Satoshi)</1></0>",
-        "sats_per": "Sats per",
-        "cap": "Market Cap",
-        "no_info": {
-            "title": "No Market Info",
-            "text": "We are having trouble loading current bitcoin market info. Refresh to try again."
-        }
-    },
-    "support": {
-        "title": "Help and Support",
-        "text": "Browse our how-to guides or submit a ticket.",
-        "button": "Support"
-    },
-    "beta": {
-        "title": "Thank you for helping test Zaprite!",
-        "text": "We really appreciate your early support and would love to hear how we can make it better for you. Submit ideas or bug reports anytime ...",
-        "button": "Send Feedback"
+  "page_title": "Dashboard",
+  "notices": [
+    {
+      "text": "<0><1>LIMITED PROMO</1> ... use coupon code <2>{{coupon}}</2> to get unlimited access for 1 year. <3><4>Free Upgrade</4></3></0>"
     }
+  ],
+  "summary": {
+    "title": "Welcome back",
+    "no_info": {
+      "title": "No summary info",
+      "text": "We are having trouble loading your current account summary information. Refresh to try again."
+    }
+  },
+  "invoices": {
+    "title": "Recent Invoices",
+    "button": "Invoices",
+    "no_invoices": {
+      "title": "No open Invoices",
+      "text": "Add a new Invoice below ..."
+    },
+    "error": "There was a problem loading your Invoices."
+  },
+  "tasks": {
+    "title": "Recent Tasks",
+    "button": "Tasks",
+    "no_tasks": {
+      "title": "You're all caught up!",
+      "text": "Add a new Task below ...",
+      "button": "Add Task"
+    },
+    "error": "There was a problem loading your Tasks."
+  },
+  "projects": {
+    "title": "Recent Projects",
+    "button": "Projects",
+    "no_projects": {
+      "title": "You're all caught up!",
+      "text": "Create a new Project below ...",
+      "button": "Create Project"
+    },
+    "error": "There was a problem loading your Projects."
+  },
+  "market": {
+    "title": "Market",
+    "price": "Price",
+    "per_sat": "<0>{{currency}} per sat <1>(Satoshi)</1></0>",
+    "sats_per": "Sats per",
+    "cap": "Market Cap",
+    "no_info": {
+      "title": "No Market Info",
+      "text": "We are having trouble loading current bitcoin market info. Refresh to try again."
+    }
+  },
+  "support": {
+    "title": "Help and Support",
+    "text": "Browse our how-to guides or submit a ticket.",
+    "button": "Support"
+  },
+  "beta": {
+    "title": "Thank you for helping test Zaprite!",
+    "text": "We really appreciate your early support and would love to hear how we can make it better for you. Submit ideas or bug reports anytime ...",
+    "button": "Send Feedback"
+  }
 }

@@ -1,51 +1,58 @@
 {
-    "login": {
-        "page_title": "Sign-in",
-        "invalid": "Invalid login credentials"
+  "login": {
+    "page_title": "Sign-in",
+    "invalid": "Invalid login credentials"
+  },
+  "sign_up": {
+    "page_title": "New Account",
+    "exists": "This account already exists",
+    "short": "Password must be at least 12 characters"
+  },
+  "forgot": {
+    "page_title": "Password Reset",
+    "button": "Request email"
+  },
+  "reset": {
+    "page_title": "Reset your password",
+    "sent": "A password reset email has been sent to {{email}}. Check your inbox.",
+    "success": "You successfully created a new password."
+  },
+  "verify": {
+    "page_title": "Almost there!",
+    "page_text": "We just need to make sure that somebody isn't trying to use your email addreess.",
+    "confirm": {
+      "title": "Confirm your email.",
+      "text": "<0>We have sent a verification email to <1>{{email}}</1></0>",
+      "instructions": "Please click the link inside to complete your account creation."
     },
-    "sign_up": {
-        "page_title": "New Account",
-        "exists": "This account already exists",
-        "short": "Password must be at least 12 characters"
+    "resend": {
+      "title": "Didn't receive an email?",
+      "button": "Resend email",
+      "success": "Email sent! It should arrive shortly, check your inbox for {{email}}"
     },
-    "forgot": {
-        "page_title": "Password Reset",
-        "button": "Request email"
-    },
-    "reset": {
-        "page_title": "Reset your password",
-        "sent": "A password reset email has been sent to {{email}}. Check your inbox.",
-        "success": "You successfully created a new password."
-    },
-    "verify": {
-        "page_title": "Almost there!",
-        "page_text": "We just need to make sure that somebody isn't trying to use your email addreess.",
-        "confirm": {
-            "title": "Confirm your email.",
-            "text": "<0>We have sent a verification email to <1>{{email}}</1></0>",
-            "instructions": "Please click the link inside to complete your account creation."
-        },
-        "resend": {
-            "title": "Didn't receive an email?",
-            "button": "Resend email",
-            "success": "Email sent! It should arrive shortly, check your inbox for {{email}}"
-        },
-        "toast": {
-            "error": "Something went wrong, please contact support."
-        }
-    },
-    "onboarding": {
-        "guide": "<0>New to Zaprite? View our <1>Quick-start Guide</1></0>"
-    },
-    "nav": {
-        "create": "Create an account",
-        "forgot": "Forgot your password?",
-        "existing": "Already have an account?",
-        "login": "Back to Login"
-    },
-    "splash": {
-        "kicker": "Limited offer",
-        "headline": "Get 1 Year Free",
-        "description": "<0>After you login, look for the coupon code to get <1>12 months free!</1></0>"
+    "toast": {
+      "error": "Something went wrong, please contact support."
     }
+  },
+  "after-login": {
+    "title": "Welcome back",
+    "message": "Loading your Dashboard"
+  },
+  "cookie": {
+    "text": "We use cookies to save some user preferences, like language and currency selections."
+  },
+  "onboarding": {
+    "guide": "<0>New to Zaprite? View our <1>Quick-start Guide</1></0>"
+  },
+  "nav": {
+    "create": "Create an account",
+    "forgot": "Forgot your password?",
+    "existing": "Already have an account?",
+    "login": "Back to Login"
+  },
+  "splash": {
+    "kicker": "Limited offer",
+    "headline": "Get 1 Year Free",
+    "description": "<0>After you login, look for the coupon code to get <1>12 months free!</1></0>"
+  }
 }

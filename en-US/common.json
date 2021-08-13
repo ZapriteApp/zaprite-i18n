@@ -1,242 +1,243 @@
 {
-    "header": {
-        "tagline": "Convert your time into bitcoin",
-        "feedback": "Feedback"
-    },
-    "footer": {
-        "support": "Support",
-        "privacy": "Privacy Policy"    
-    },
-    "nav": {
-        "main": {
-            "dashboard": "Dashboard",
-            "tasks": "Tasks",
-            "invoices": "Invoices",
-            "projects": "Projects",
-            "contacts": "Contacts"
-        },
-        "quick": {
-            "task": "New Task",
-            "project": "New Project",
-            "invoice": "New Invoice",
-            "contact": "New Contact"
-        }    
-    },
-    "elements": {
-        "task": "Task",
-        "project": "Project",
-        "invoice": "Invoice",
-        "contact": "Contact"
-    },
-    "placeholders": {
-        "none": "None",
-        "note_default": "Thank you for your business."
-    },
-    "errors": {
-        "error_loading": "Error loading data",
-        "generic": "Something went wrong",
-        "unknown": "Unknown"
-    },
-    "headings": {
-        "important": "Important",
-        "note": "Note"
-    },
-    "texts": {
-        "per": "Per"
-    },
-    "datetime": {
-        "minute": "minute",
-        "minute_one": "{{count}} minutes",
-        "minute_two": "{{count}} minutes",
-        "minute_other": "{{count}} minutes",
-        "hour": "hour",
-        "hour_one": "{{count}} hours",
-        "hour_two": "{{count}} hours",
-        "hour_other": "{{count}} hours",
-        "second": "second",
-        "second_one": "{{count}} seconds",
-        "second_two": "{{count}} seconds",
-        "second_other": "{{count}} seconds",
-        "day": "day",
-        "day_one": "{{count}} day",
-        "day_two": "{{count}} days",
-        "day_other": "{{count}} days",
-        "week": "week",
-        "week_one": "{{count}} weeks",
-        "week_two": "{{count}} weeks",
-        "week_other": "{{count}} weeks",
-        "month": "month",
-        "month_one": "{{count}} months",
-        "month_two": "{{count}} months",
-        "month_other": "{{count}} months",
-        "monthly": "monthly",
-        "year": "year",
-        "year_one": "{{count}} years",
-        "year_two": "{{count}} years",
-        "year_other": "{{count}} years",
-        "yearly": "yearly",
-        "annual": "annual",
-        "annually": "annually",
-        "ago": "ago",
-        "today": "Today",
-        "tomorrow": "Tomorrow",
-        "yesterday": "Yesterday"
-    },
-    "forms": {
-        "labels": {
-            "actions": "Actions",
-            "address": "Address",
-            "amount": "Amount",
-            "code-2fa": "Authentication code",
-            "company": "Company",
-            "company_name": "Company name",
-            "confirm_password": "Confirm password",
-            "confirm_new_password": "Confirm new password",
-            "cost": "Cost",
-            "created": "Created",
-            "currency": "Currency",
-            "current_password": "Current password",
-            "date": "Date",
-            "deadline": "Deadline",
-            "description": "Description",
-            "due": "Due",
-            "email": "Email",
-            "footer_note": "Footer note",
-            "invoice_note": "Invoice note",
-            "name": "Name",
-            "new_password": "New password",
-            "number": "Number",
-            "optional": "Optional",
-            "password": "Password",
-            "payment_terms": "Payment terms",
-            "phone": "Phone",
-            "quantity": "Quantity",
-            "rate": "Rate",
-            "rate_cost": "Rate / Cost",
-            "recipient": "Recipient",
-            "required": "Required",
-            "show_password": "Show password",
-            "status": "Status",
-            "subtotal": "Subtotal",
-            "tax": "Tax",
-            "tax_rate": "Tax rate",
-            "tax_number": "Tax number",
-            "terms": "Terms",
-            "title": "Title",
-            "trx-id": "Transaction ID",
-            "website": "Website"
-        },
-        "select": {
-            "choose_task": "Choose a Task ...",
-            "choose_contact": "Choose a Contact ...",
-            "choose_project": "Choose a Project ...",
-            "choose_invoice": "Choose an Invoice ...",
-            "choose_terms": "Choose Terms ...",
-            "choose_currency": "Choose a Currency ..."
-        },
-        "messages": {
-            "characters": "characters",
-            "uppercase": "uppercase",
-            "lowercase": "lowercase",
-            "number": "number",
-            "special": "special character",
-            "minimum": "Minimum",
-            "maximum": "Maximum",
-            "min_count": "Min. {{count}}",
-            "max_count": "Max. {{count}}",
-            "min_characters": "Minimum {{count}} characters",
-            "max_characters": "Maximum {{count}} characters"
-        }
-    },
-    "buttons": {
-        "add": "Add",
-        "back": "Back",
-        "cancel": "Cancel",
-        "confirm": "Confirm",
-        "copy": "Copy",
-        "delete": "Delete",
-        "download": "Download",
-        "download_csv": "Download CSV",
-        "download_pdf": "Download PDF",
-        "edit": "Edit",
-        "enable": "Enable",
-        "export": "Export",
-        "import": "Import",
-        "login": "Login",
-        "manage": "Manage",
-        "next": "Next",
-        "no": "No",
-        "pay": "Pay",
-        "pay_invoice": "Pay Invoice",
-        "pdf": "PDF",
-        "preview": "Preview",
-        "previous": "Previous",
-        "receive": "Receive",
-        "reminder": "Reminder",
-        "refresh": "Refresh",
-        "reset": "Reset",
-        "return": "Return",
-        "send": "Send",
-        "sign-up": "Sign-up",
-        "update": "Update",
-        "upgrade": "Upgrade",
-        "view": "View",
-        "yes": "Yes"
-    },
-    "state": {
-        "active": "Active",
-        "activated": "Activated",
-        "added": "Added",
-        "complete": "Confirmed",
-        "confirmed": "Complete",
-        "deactivated": "Deactivated",
-        "default": "Default",
-        "disabled": "Disabled",
-        "enabled": "Enabled",
-        "error": "Error",
-        "inactive": "Inactive",
-        "incoming": "Incoming",
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "received": "Received",
-        "recorded": "Recorded",
-        "removed": "Removed",
-        "sent": "Sent"
-    },
-    "toasts": {
-        "copied": "Copied to clipboard",
-        "copy_failed": "Failed to copy."
-    },
-    "filters": {
-        "search": "Search ...",
-        "title": "Title ...",
-        "tasks": "All Tasks",
-        "projects": "All Projects",
-        "invoices": "All Invoices",
-        "invoice_number": "Invoice number ...",
-        "contacts": "All Contacts",
-        "status": "All Status",
-        "dates": "All Dates"
-    },
-    "pagination": {
-        "show": "Show",
-        "page": "Page"
-    },
-    "modal": {
-        "check": "Are you sure?",
-        "warn": "<0>You <1>cannot undo</1> this action!</0>"
-    },
-    "invoices": {
-        "terms": {
-            "zero": "Due on receipt"
-        }
-    },
-    "404": {
-        "page_title": "Not Found",
-        "page_text": "What you are looking for was pegged to dirty fiat and has evaporated due to inflation."
-    },
-    "500": {
-        "page_title": "Server Error",
-        "page_text": "An unexpected error has occurred."
-    }
+	"header": {
+		"tagline": "Convert your time into bitcoin",
+		"feedback": "Feedback"
+	},
+	"footer": {
+		"support": "Support",
+		"privacy": "Privacy Policy"
+	},
+	"nav": {
+		"main": {
+			"dashboard": "Dashboard",
+			"tasks": "Tasks",
+			"invoices": "Invoices",
+			"projects": "Projects",
+			"contacts": "Contacts"
+		},
+		"quick": {
+			"task": "New Task",
+			"project": "New Project",
+			"invoice": "New Invoice",
+			"contact": "New Contact"
+		}
+	},
+	"elements": {
+		"task": "Task",
+		"project": "Project",
+		"invoice": "Invoice",
+		"contact": "Contact"
+	},
+	"placeholders": {
+		"none": "None",
+		"note_default": "Thank you for your business."
+	},
+	"errors": {
+		"error_loading": "Error loading data",
+		"generic": "Something went wrong",
+		"unknown": "Unknown"
+	},
+	"headings": {
+		"important": "Important",
+		"note": "Note"
+	},
+	"texts": {
+		"per": "Per"
+	},
+	"datetime": {
+		"minute": "minute",
+		"minute_one": "{{count}} minutes",
+		"minute_two": "{{count}} minutes",
+		"minute_other": "{{count}} minutes",
+		"hour": "hour",
+		"hour_one": "{{count}} hours",
+		"hour_two": "{{count}} hours",
+		"hour_other": "{{count}} hours",
+		"second": "second",
+		"second_one": "{{count}} seconds",
+		"second_two": "{{count}} seconds",
+		"second_other": "{{count}} seconds",
+		"day": "day",
+		"day_one": "{{count}} day",
+		"day_two": "{{count}} days",
+		"day_other": "{{count}} days",
+		"week": "week",
+		"week_one": "{{count}} weeks",
+		"week_two": "{{count}} weeks",
+		"week_other": "{{count}} weeks",
+		"month": "month",
+		"month_one": "{{count}} months",
+		"month_two": "{{count}} months",
+		"month_other": "{{count}} months",
+		"monthly": "monthly",
+		"year": "year",
+		"year_one": "{{count}} years",
+		"year_two": "{{count}} years",
+		"year_other": "{{count}} years",
+		"yearly": "yearly",
+		"annual": "annual",
+		"annually": "annually",
+		"ago": "ago",
+		"today": "Today",
+		"tomorrow": "Tomorrow",
+		"yesterday": "Yesterday"
+	},
+	"forms": {
+		"labels": {
+			"actions": "Actions",
+			"address": "Address",
+			"amount": "Amount",
+			"code-2fa": "Authentication code",
+			"company": "Company",
+			"company_name": "Company name",
+			"confirm_password": "Confirm password",
+			"confirm_new_password": "Confirm new password",
+			"cost": "Cost",
+			"created": "Created",
+			"currency": "Currency",
+			"current_password": "Current password",
+			"date": "Date",
+			"deadline": "Deadline",
+			"description": "Description",
+			"due": "Due",
+			"email": "Email",
+			"footer_note": "Footer note",
+			"invoice_note": "Invoice note",
+			"name": "Name",
+			"new_password": "New password",
+			"number": "Number",
+			"optional": "Optional",
+			"password": "Password",
+			"payment_terms": "Payment terms",
+			"phone": "Phone",
+			"quantity": "Quantity",
+			"rate": "Rate",
+			"rate_cost": "Rate / Cost",
+			"recipient": "Recipient",
+			"required": "Required",
+			"show_password": "Show password",
+			"status": "Status",
+			"subtotal": "Subtotal",
+			"tax": "Tax",
+			"tax_rate": "Tax rate",
+			"tax_number": "Tax number",
+			"terms": "Terms",
+			"title": "Title",
+			"trx-id": "Transaction ID",
+			"website": "Website"
+		},
+		"select": {
+			"choose_task": "Choose a Task ...",
+			"choose_contact": "Choose a Contact ...",
+			"choose_project": "Choose a Project ...",
+			"choose_invoice": "Choose an Invoice ...",
+			"choose_terms": "Choose Terms ...",
+			"choose_currency": "Choose a Currency ...",
+			"choose_language": "Choose a Language ..."
+		},
+		"messages": {
+			"characters": "characters",
+			"uppercase": "uppercase",
+			"lowercase": "lowercase",
+			"number": "number",
+			"special": "special character",
+			"minimum": "Minimum",
+			"maximum": "Maximum",
+			"min_count": "Min. {{count}}",
+			"max_count": "Max. {{count}}",
+			"min_characters": "Minimum {{count}} characters",
+			"max_characters": "Maximum {{count}} characters"
+		}
+	},
+	"buttons": {
+		"add": "Add",
+		"back": "Back",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"copy": "Copy",
+		"delete": "Delete",
+		"download": "Download",
+		"download_csv": "Download CSV",
+		"download_pdf": "Download PDF",
+		"edit": "Edit",
+		"enable": "Enable",
+		"export": "Export",
+		"import": "Import",
+		"login": "Login",
+		"manage": "Manage",
+		"next": "Next",
+		"no": "No",
+		"pay": "Pay",
+		"pay_invoice": "Pay Invoice",
+		"pdf": "PDF",
+		"preview": "Preview",
+		"previous": "Previous",
+		"receive": "Receive",
+		"reminder": "Reminder",
+		"refresh": "Refresh",
+		"reset": "Reset",
+		"return": "Return",
+		"send": "Send",
+		"sign-up": "Sign-up",
+		"update": "Update",
+		"upgrade": "Upgrade",
+		"view": "View",
+		"yes": "Yes"
+	},
+	"state": {
+		"active": "Active",
+		"activated": "Activated",
+		"added": "Added",
+		"complete": "Confirmed",
+		"confirmed": "Complete",
+		"deactivated": "Deactivated",
+		"default": "Default",
+		"disabled": "Disabled",
+		"enabled": "Enabled",
+		"error": "Error",
+		"inactive": "Inactive",
+		"incoming": "Incoming",
+		"incomplete": "Incomplete",
+		"pending": "Pending",
+		"received": "Received",
+		"recorded": "Recorded",
+		"removed": "Removed",
+		"sent": "Sent"
+	},
+	"toasts": {
+		"copied": "Copied to clipboard",
+		"copy_failed": "Failed to copy."
+	},
+	"filters": {
+		"search": "Search ...",
+		"title": "Title ...",
+		"tasks": "All Tasks",
+		"projects": "All Projects",
+		"invoices": "All Invoices",
+		"invoice_number": "Invoice number ...",
+		"contacts": "All Contacts",
+		"status": "All Status",
+		"dates": "All Dates"
+	},
+	"pagination": {
+		"show": "Show",
+		"page": "Page"
+	},
+	"modal": {
+		"check": "Are you sure?",
+		"warn": "<0>You <1>cannot undo</1> this action!</0>"
+	},
+	"invoices": {
+		"terms": {
+			"zero": "Due on receipt"
+		}
+	},
+	"404": {
+		"page_title": "Not Found",
+		"page_text": "What you are looking for was pegged to dirty fiat and has evaporated due to inflation."
+	},
+	"500": {
+		"page_title": "Server Error",
+		"page_text": "An unexpected error has occurred."
+	}
 }
