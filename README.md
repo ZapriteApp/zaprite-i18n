@@ -130,6 +130,20 @@ If everything looks good we will let you know and you can then send your invoice
 
 ---
 
+# Getting Paid
+
+Once we've checked over the translations and confirmed everything, we'll instruct you to send us an invoice via Zaprite. Here's how to do that …
+
+1. Create an account at Zaprite (you should already have done this part 😉).
+2. Add 'Zaprite Inc.' as a new Contact, and use _dropfiat@zaprite.com_ as the email address.
+3. Create a 'New Invoice.'
+4. Select _Zaprite Inc._ as the recipient.
+5. Add a new _Line Item_ for USD$75.00, with a description e.g.: 'Spanish translations'.
+6. Add a bitcoin receiving address.
+7. Click 'Send.'
+
+That's it! We'll be notifed and will pay your invoice asap. You should receive an email once the payment has been confirmed.
+
 # Some tips!
 
 Sign up for a Zaprite account before you start translating. You will be able to browse through the app and visually see where each string is located to get better context for how the wording is used.
